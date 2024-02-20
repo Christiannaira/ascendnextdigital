@@ -2,3 +2,37 @@
     background: var(--bg-color);
     padding: 60px 120px 120px;
 }
+
+/*web breakpoints (responsiveness)*/
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+
+
+    .mainpage {
+        padding: 60px 100px 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .mainpage {
+        padding: 60px 60px 60px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mainpage {
+        padding: 60px 30px 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mainpage {
+        padding: 30px 10px 30px;
+    }
+}
