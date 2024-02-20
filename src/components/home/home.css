@@ -1,0 +1,75 @@
+.home {
+    padding: 120px 0;
+}
+
+.home-content_title {
+    width: 75%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.brand-highlight {
+    background: linear-gradient(90deg, #2AF598, #0093FD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: var(--font-500);
+    font-size: 1.3rem;
+}
+
+
+h1.home-content_title-main {
+    font-family: var(--main-font);
+    color: var(--main-color);
+    font-weight: var(--font-500);
+    font-size: 3.3rem;
+}
+
+p.home-content_title-secondary {
+    color: var(--main-color);
+    font-weight: var(--font-300);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+p .highlight {
+    color: var(--highlight-color);
+}
+
+.gradient {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(90deg, #2AF598, #0093FD);
+    position: absolute;
+    top: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: blur(12rem);
+    border-radius: 500px;
+    z-index: -1;
+}
+
+.home-content_button,
+.home-content_cta-button {
+    margin-top: 3rem;
+}
+
+.home-content_vsl {
+    margin-top: 3rem;
+}
+
+
+.home-content_cta {
+    margin-top: 2rem;
+    width: 75%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-content_cta-text {
+    color: var(--main-color);
+    font-weight: var(--font-300);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+}

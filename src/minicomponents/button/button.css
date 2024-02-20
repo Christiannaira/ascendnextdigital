@@ -1,0 +1,41 @@
+.button-container button {
+    background-color: var(--highlight-color);
+    padding: 1rem 2rem;
+    font-weight: var(--font-600);
+    transition: .2s ease-out;
+    position: relative;
+}
+
+.button-container_arrow {
+    background: #121212;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.button-container button .button-arrow {
+    transform: rotate(40deg);
+    color: yellow;
+}
+
+.button-container button:hover {
+    letter-spacing: 3px;
+    transform: scale(1.1);
+    background-color: var(--main-color);
+    color: var(--bg-color);
+}
+
+.button-container button::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--highlight-color);
+    border-radius: 100px;
+    filter: blur(5px);
+    z-index: -1;
+    transition: .2s ease-out;
+}
+
+.button-container button:hover::before {
+    background: var(--main-color);
+}

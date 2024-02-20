@@ -1,0 +1,11 @@
+.logo {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.top-navigation_menubar .menu {
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    margin: 7px 0;
+}

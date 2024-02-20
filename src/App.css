@@ -1,4 +1,4 @@
 .mainpage {
-    background: #121212;
-    padding: 120px 120px;
+    background: var(--bg-color);
+    padding: 60px 120px 120px;
 }
