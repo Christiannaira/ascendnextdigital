@@ -1,11 +1,12 @@
-
+import Mainpage from "./pages/Mainpage";
+import "./App.css";
 
 function App() {
 
 
   return (
     <>
-      hello world
+      <Mainpage />
     </>
   )
 }

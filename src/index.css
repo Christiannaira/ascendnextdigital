@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+:root {
+    --bg-color: #121212;
+    --highlight-color: #FFFF00;
+    --gradient01-color: #2AF598;
+    --gradient02-color: #0093FD;
+}
+
+
+.container {
+    display: inline-block;
+}
+
+.text {
+    background: linear-gradient(90deg, #2AF598, #0093FD);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
