@@ -12,9 +12,9 @@ const Mainpage = () => {
 
                 <Home />
 
-                <Calltoaction />
-
                 <Challenges />
+
+                <Calltoaction />
 
                 <Partners />
 

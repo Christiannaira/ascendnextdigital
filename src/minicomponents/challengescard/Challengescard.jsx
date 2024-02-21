@@ -1,9 +1,13 @@
 import "./challengescard.css";
 
-const Challengescard = () => {
+const Challengescard = ({ challenge }) => {
     return (
-        <div>
-            Challengescard
+        <div className="challenge-container_card d-md-flex align-items-center justify-content-between">
+
+            <h3>{challenge.problem}</h3>
+
+            <p> {challenge.solution}</p>
+
         </div>
     )
 }

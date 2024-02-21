@@ -67,3 +67,5 @@ const team = [
         role: 'COO',
     }
 ]
+
+export { challenges, process, testimonials, team };

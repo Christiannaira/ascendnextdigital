@@ -1,5 +1,5 @@
 .home {
-    padding: 120px 0;
+    padding: 120px 0 60px;
 }
 
 .home-content_title {
@@ -166,4 +166,36 @@ p .highlight {
 
 
 
+}
+
+.arrow-down {
+    margin: 5rem 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-down-container {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow-down-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: var(--main-color);
+    border-radius: 50px;
+    transition: .3s ease-in;
+}
+
+.arrow-down-container:hover .arrow-down-bullet {
+    background-color: var(--highlight-color);
 }
