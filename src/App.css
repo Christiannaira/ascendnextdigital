@@ -13,7 +13,7 @@
 
 
     .mainpage {
-        padding: 60px 100px 100px;
+        padding: 60px 100px 60px;
     }
 
 
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 576px) {
     .mainpage {
-        padding: 60px 30px 30px;
+        padding: 50px 30px 50px;
     }
 }
 
