@@ -16,9 +16,11 @@ const Mainpage = () => {
 
                 <Calltoaction />
 
+                <Process />
+
                 <Partners />
 
-                <Process />
+
 
                 <Team />
 

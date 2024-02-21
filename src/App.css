@@ -3,6 +3,10 @@
     padding: 60px 120px 120px;
 }
 
+section {
+    padding-bottom: 5rem;
+}
+
 /*web breakpoints (responsiveness)*/
 
 @media screen and (max-width: 1400px) {}

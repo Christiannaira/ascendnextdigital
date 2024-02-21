@@ -4,7 +4,7 @@ import { Button } from "../../minicomponents";
 const Home = () => {
     return (
 
-        <section className="home text-center scale-in-center p-relative z-100" id="home">
+        <section className="home scale-in-center p-relative z-100 " id="home">
 
             <div className="gradient" />
 

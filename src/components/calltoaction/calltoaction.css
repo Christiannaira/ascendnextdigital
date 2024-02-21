@@ -1,0 +1,47 @@
+.calltoaction-content {
+    width: 75%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 10rem 0;
+}
+
+.calltoaction-content h2 {
+    font-size: 3.5rem;
+    color: var(--main-color);
+    font-weight: var(--font-700);
+    margin-bottom: 1rem;
+}
+
+.calltoaction-content p {
+    font-size: 1.5rem;
+    color: #ddd;
+    font-weight: var(--font-400);
+}
+
+.calltoaction-content_main {
+    margin: 3rem 0;
+}
+
+.calltoaction-content_main h3 {
+    font-size: 2.5rem;
+    color: var(--highlight-color);
+    font-weight: var(--font-700);
+}
+
+.calltoaction-content_main-img-button {
+    margin-top: 2rem;
+}
+
+.cta-gradient {
+    height: 1200px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #101010;
+    z-index: 1;
+    border-radius: 100%;
+}
