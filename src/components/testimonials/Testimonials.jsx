@@ -4,7 +4,7 @@ import "./testimonials.css";
 const ReviewCard = ({ item }) => {
 
     return (
-        <div className="testimonials-content-container">
+        <div className="testimonials-content-container" data-aos="zoom-in">
 
             <div className="testimonials-content-container-words">
                 <p>"{item.words}"</p>

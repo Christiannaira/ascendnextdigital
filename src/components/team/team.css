@@ -1,0 +1,15 @@
+.team-content_image img {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+.team-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem 2rem !important;
+    flex-wrap: wrap;
+}

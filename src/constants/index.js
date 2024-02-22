@@ -1,4 +1,8 @@
 import Avatar from "../assets/avatar.png";
+import Team01 from "../assets/team01.png";
+import Team02 from "../assets/team02.png";
+import Team03 from "../assets/team03.png";
+import Team04 from "../assets/team04.png";
 
 const challenges = [
     {
@@ -57,18 +61,22 @@ const team = [
     {
         member: 'Jay Marco',
         role: 'CEO',
+        image: Team01,
     },
     {
         member: 'Christian Naira',
         role: 'CTO',
+        image: Team02,
     },
     {
         member: 'Bryan Barnedo',
         role: 'CMO',
+        image: Team03,
     },
     {
         member: 'Daniel Baria',
         role: 'COO',
+        image: Team04,
     }
 ]
 

@@ -1,10 +1,12 @@
 import "./home.css";
 import { Button } from "../../minicomponents";
 
+
 const Home = () => {
+
     return (
 
-        <section className="home scale-in-center p-relative z-100 " id="home">
+        <section className="home p-relative z-100 " id="home" data-aos="fade-up">
 
             <div className="gradient" />
 
@@ -14,7 +16,7 @@ const Home = () => {
 
                 </div>
 
-                <header className="home-content_title">
+                <header className="home-content_title" >
 
                     <h2 className="home-content_title-niche brand-highlight">
                         Attention: High-Tickets Coaches, Consultants, Brands & Content Creators.
