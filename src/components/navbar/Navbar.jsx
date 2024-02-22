@@ -36,13 +36,25 @@ const Navbar = () => {
 
     }
 
+    const handleScroll = () => {
+
+        const scrollY = window.scrollY || document.documentElement.scrollTop;
+
+        if (scrollY > 0) {
+            setMenu(false);
+        }
+
+    }
+
     useEffect(() => {
 
         window.addEventListener("click", handleWindow);
+        window.addEventListener('scroll', handleScroll)
 
         return () => {
 
             window.removeEventListener("click", handleWindow);
+            window.removeEventListener("scroll", handleScroll);
 
         }
 
@@ -68,7 +80,7 @@ const Navbar = () => {
                 <div className="menu menu03"></div>
 
                 {menu ? (
-                    <div className="top-navigation_menubar-open">
+                    <div className="top-navigation_menubar-open scale-in-center">
 
                         <NavLinks />
 

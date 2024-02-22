@@ -28,6 +28,12 @@
     margin-top: 1.5rem;
 }
 
+.section-title_sub-top {
+
+    font-weight: var(--font-700);
+}
+
 .section-title_main-top {
     font-size: 2.5rem;
+    font-weight: var(--font-900);
 }

@@ -5,6 +5,7 @@
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    transition: .3s ease-in-out;
 }
 
 .challenge-container_card::before {
@@ -18,12 +19,16 @@
     transition: .3s ease-in;
 }
 
+.challenge-container_card:hover {
+    padding-left: 2rem;
+}
+
 .challenge-container_card:hover::before {
     width: 100%;
 }
 
 .challenge-container_card h3 {
-    color: #ddd;
+    color: var(--main-color);
     font-weight: var(--font-400);
     font-size: 1.6rem;
 }

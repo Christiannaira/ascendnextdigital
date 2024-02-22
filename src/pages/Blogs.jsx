@@ -1,8 +1,9 @@
+import Ongoing from "./Ongoing"
 
 const Blogs = () => {
     return (
         <div>
-            Blogs
+            <Ongoing />
         </div>
     )
 }

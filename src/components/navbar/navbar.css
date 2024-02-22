@@ -53,6 +53,7 @@
 
     .top-navigation_menubar {
         display: inline-block;
+        transition: .3s;
     }
 
     .top-navigation_pages {

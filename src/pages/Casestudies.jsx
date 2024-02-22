@@ -1,9 +1,9 @@
-import React from 'react'
+import Ongoing from "./Ongoing"
 
 const CaseStudies = () => {
     return (
         <div>
-            CaseStudies
+            <Ongoing />
         </div>
     )
 }

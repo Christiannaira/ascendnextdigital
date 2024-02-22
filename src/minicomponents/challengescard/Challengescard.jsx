@@ -7,7 +7,7 @@ const Challengescard = ({ challenge }) => {
 
             <h3>{challenge.problem}</h3>
 
-            <p> {challenge.solution}</p>
+            <p className=""> {challenge.solution}</p>
 
         </div>
     )
