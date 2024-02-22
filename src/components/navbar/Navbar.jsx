@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./navbar.css";
 import { NavLink } from "react-router-dom"
 
@@ -24,6 +24,29 @@ const NavLinks = () => {
 const Navbar = () => {
 
     const [menu, setMenu] = useState(false);
+    const menuRef = useRef(null);
+
+    const handleWindow = (event) => {
+
+        if (menuRef.current && menuRef.current.contains(event.target)) {
+            return;
+        }
+
+        setMenu(false);
+
+    }
+
+    useEffect(() => {
+
+        window.addEventListener("click", handleWindow);
+
+        return () => {
+
+            window.removeEventListener("click", handleWindow);
+
+        }
+
+    }, [])
 
     return (
         <div className="top-navigation d-flex justify-content-between align-items-center">
@@ -38,7 +61,7 @@ const Navbar = () => {
 
             </nav>
 
-            <div className="top-navigation_menubar" onClick={() => setMenu(!menu)}>
+            <div className="top-navigation_menubar" ref={menuRef} onClick={() => setMenu(!menu)}>
 
                 <div className="menu menu01"></div>
                 <div className="menu menu02"></div>
