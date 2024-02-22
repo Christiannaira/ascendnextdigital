@@ -6,8 +6,13 @@
     text-align: center;
     position: relative;
     z-index: 1;
-    padding: 10rem 0;
+    padding: 6rem 0;
 }
+
+.calltoaction-content_main01 {
+    margin-top: 5rem;
+}
+
 
 .calltoaction-content h2 {
     font-size: 3.5rem;
@@ -22,13 +27,13 @@
     font-weight: var(--font-400);
 }
 
-.calltoaction-content_main {
+.calltoaction-content_main02 {
     margin: 3rem 0;
 }
 
-.calltoaction-content_main h3 {
+.calltoaction-content_main02 h3 {
     font-size: 2.5rem;
-    color: var(--highlight-color);
+    color: var(--main-color);
     font-weight: var(--font-700);
 }
 
@@ -37,11 +42,15 @@
 }
 
 .cta-gradient {
-    height: 1200px;
+    height: 1300px;
     width: 100%;
     position: absolute;
     left: 0;
     background-color: #101010;
     z-index: 1;
-    border-radius: 100%;
+
+}
+
+.calltoaction-content_main-span {
+    color: var(--highlight-color);
 }

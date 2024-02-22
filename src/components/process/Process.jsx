@@ -1,4 +1,7 @@
-import { Titles } from "../../minicomponents";
+import { Titles, Processcard } from "../../minicomponents";
+import "./process.css";
+import { process } from "../../constants";
+
 
 const Process = () => {
     return (
@@ -10,7 +13,11 @@ const Process = () => {
 
             <div className="process-content">
 
+                {process.map((item, index) => (
 
+                    <Processcard item={item} key={index} />
+
+                ))}
 
             </div>
 
