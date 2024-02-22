@@ -1,3 +1,5 @@
+import Avatar from "../assets/avatar.png";
+
 const challenges = [
     {
         problem: 'Building Loyal Audience',
@@ -40,12 +42,14 @@ const testimonials = [
     {
         client: 'Baron Hashel',
         profession: 'Founder & CEO',
-        words: ' We deliver fast but we also believe that quality is much more important than quantity, we assure that every penny and every dollar our clients pay us would return to them tenfold. We deliver fast but we also believe that quality is much more important than quantity, we assure that every penny and every dollar our clients pay us would return to them tenfold.'
+        words: ' We deliver fast but we also believe that quality is much more important than quantity, we assure that every penny and every dollar our clients pay us would return to them tenfold. We deliver fast but we also believe that quality is much more important than quantity, we assure that every penny and every dollar our clients pay us would return to them tenfold.',
+        image: Avatar,
     },
     {
         client: 'Baron Hashel',
         profession: 'Founder & CEO',
         words: "We deliver fast but we also believe that quality is much more important than quantity, we assure that every penny and every dollar our clients pay us would return to them tenfold. We deliver fast but we also believe that.",
+        image: Avatar,
     }
 ]
 

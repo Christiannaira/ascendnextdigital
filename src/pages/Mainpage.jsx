@@ -18,13 +18,14 @@ const Mainpage = () => {
 
                 <Process />
 
-                <Partners />
+                <Testimonials />
 
+                <Partners />
 
 
                 <Team />
 
-                <Testimonials />
+
 
             </main>
 
