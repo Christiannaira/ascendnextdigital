@@ -1,14 +1,21 @@
-.logo {
-    font-weight: 400;
-    font-size: 16px;
+.top-navigation {
+    padding: 60px 120px 30px;
 }
 
-.top-navigation_menubar {
+.top-navigation--logo-container .top-navigation--logo-container__logo {
+    color: var(--main-color);
+    font-size: 1.1rem;
+    font-weight: var(--font-400);
+}
+
+/*menu bar design*/
+
+.top-navigation--menubar {
     display: none;
     cursor: pointer;
 }
 
-.top-navigation_menubar .menu {
+.top-navigation--menubar .menu {
     width: 30px;
     height: 1px;
     background: #fff;
@@ -27,7 +34,7 @@
     color: var(--highlight-color);
 }
 
-.top-navigation_menubar-open {
+.top-navigation--menubar__open {
     background-color: #222;
     position: fixed;
     top: 15%;
@@ -47,20 +54,30 @@
 
 @media screen and (max-width: 1200px) {}
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+
+    .top-navigation {
+        padding: 60px 100px 30px;
+    }
+
+}
 
 @media screen and (max-width: 768px) {
 
-    .top-navigation_menubar {
+    .top-navigation {
+        padding: 60px 60px 30px;
+    }
+
+    .top-navigation--menubar {
         display: inline-block;
         transition: .3s;
     }
 
-    .top-navigation_pages {
+    .top-navigation--pages {
         display: none;
     }
 
-    .top-navigation_pages-container .navigation-link {
+    .top-navigation--pages__container .navigation-link {
         display: block;
         font-size: 1rem;
         padding: 10px 0;
@@ -68,6 +85,18 @@
 
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
 
-@media screen and (max-width: 400px) {}
+    .top-navigation {
+        padding: 40px 30px 30px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .top-navigation {
+        padding: 30px 10px 20px;
+    }
+
+}

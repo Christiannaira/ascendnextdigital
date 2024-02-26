@@ -1,4 +1,7 @@
 import "./footer.css";
+// import { FaFacebookSquare, RiInstagramFill } from "react-icons";
+
+
 
 
 const Footer = () => {
@@ -19,8 +22,9 @@ const Footer = () => {
 
                 <div className="footer-socials">
 
-                    <i class='bx bxl-facebook-square'></i>
-                    <i class='bx bxl-instagram-alt' ></i>
+                    {/* <FaFacebookSquare />
+                    <RiInstagramFill /> */}
+
 
                 </div>
 

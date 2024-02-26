@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom"
 const NavLinks = () => {
 
     return (
-        <div className="top-navigation_pages-container">
+        <div className="top-navigation--pages__container">
 
             <NavLink to='/blogs' className="navigation-link">
                 Blogs
@@ -63,24 +63,26 @@ const Navbar = () => {
     return (
         <div className="top-navigation d-flex justify-content-between align-items-center">
 
-            <div className="top-navigation_logo d-inline-flex align-items-center justify-content-center">
-                <h2 className="logo text-white">ascendnextdigital</h2>
+            <div className="top-navigation--logo-container d-inline-flex align-items-center justify-content-center">
+
+                <h2 className="top-navigation--logo-container__logo">ascendnextdigital</h2>
+
             </div>
 
-            <nav className="top-navigation_pages">
+            <nav className="top-navigation--pages">
 
                 <NavLinks />
 
             </nav>
 
-            <div className="top-navigation_menubar" ref={menuRef} onClick={() => setMenu(!menu)}>
+            <div className="top-navigation--menubar" ref={menuRef} onClick={() => setMenu(!menu)}>
 
                 <div className="menu menu01"></div>
                 <div className="menu menu02"></div>
                 <div className="menu menu03"></div>
 
                 {menu ? (
-                    <div className="top-navigation_menubar-open scale-in-center">
+                    <div className="top-navigation--menubar__open scale-in-center">
 
                         <NavLinks />
 

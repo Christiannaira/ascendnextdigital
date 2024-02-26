@@ -1,11 +1,10 @@
 .mainpage {
     background: var(--bg-color);
-    padding: 60px 120px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('./assets/noise-bg.avif');
 }
 
 section {
-    padding: 5rem 0;
+    padding: 5rem 120px 2rem;
+    border: 1px solid red;
 }
 
 /*web breakpoints (responsiveness)*/
@@ -16,31 +15,37 @@ section {
 
 @media screen and (max-width: 992px) {
 
-
-    .mainpage {
-        padding: 60px 100px 0;
+    section {
+        padding: 5rem 100px 2rem;
     }
-
 
 }
 
 @media screen and (max-width: 768px) {
-    .mainpage {
-        padding: 60px 60px 0;
+
+    section {
+        padding: 5rem 60px 2rem;
     }
+
 }
 
 @media screen and (max-width: 576px) {
-    .mainpage {
-        padding: 50px 30px 0;
+
+    section {
+        padding: 5rem 30px 2rem;
     }
+
 }
 
 @media screen and (max-width: 400px) {
-    .mainpage {
-        padding: 30px 10px 0;
+
+    section {
+        padding: 5rem 10px 0;
     }
+
 }
+
+/*other pages content design*/
 
 .ongoing {
     position: relative;
