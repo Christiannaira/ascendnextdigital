@@ -1,7 +1,3 @@
-.top-navigation {
-    padding: 60px 120px 30px;
-}
-
 .top-navigation--logo-container .top-navigation--logo-container__logo {
     color: var(--main-color);
     font-size: 1.1rem;
@@ -54,19 +50,11 @@
 
 @media screen and (max-width: 1200px) {}
 
-@media screen and (max-width: 992px) {
-
-    .top-navigation {
-        padding: 60px 100px 30px;
-    }
-
-}
+@media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {
 
-    .top-navigation {
-        padding: 60px 60px 30px;
-    }
+
 
     .top-navigation--menubar {
         display: inline-block;
@@ -85,18 +73,6 @@
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {}
 
-    .top-navigation {
-        padding: 40px 30px 30px;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-
-    .top-navigation {
-        padding: 30px 10px 20px;
-    }
-
-}
+@media screen and (max-width: 400px) {}

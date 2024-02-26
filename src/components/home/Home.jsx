@@ -6,32 +6,28 @@ const Home = () => {
 
     return (
 
-        <section className="home p-relative z-100 " id="home" data-aos="fade-up">
+        <section className="home p-relative z-100" id="home" data-aos="fade-up">
 
             <div className="gradient" />
 
             <div className="home-content">
 
-                <div className="home-client_reviews">
+                <header className="home-content--title" >
 
-                </div>
-
-                <header className="home-content_title" >
-
-                    <h2 className="home-content_title-niche brand-highlight">
+                    <h2 className="home-content--title__niche brand-highlight">
                         Attention: High-Tickets Coaches, Consultants, Brands & Content Creators.
                     </h2>
 
-                    <h1 className="home-content_title-main">
+                    <h1 className="home-content--title__main">
 
                         We Skyrocket Your Social Media Presence in the First 90 Days. Quality & Organic Views.
 
-                        <span className="home-content_title-main-highlight">
+                        <span className="home-content--title__main-highlight">
                             No Results, No bills!!
                         </span>
                     </h1>
 
-                    <p className="home-content_title-secondary">
+                    <p className="home-content--title__secondary">
 
                         Place your personal brand into the
 
@@ -47,29 +43,29 @@ const Home = () => {
 
                 </header>
 
-                <div className="home-content_button">
+                <div className="home-content--button">
 
                     <Button />
 
                 </div>
 
-                <div className="home-content_vsl">
+                <div className="home-content--vsl">
 
                     <iframe width="1150" height="705" src="https://www.youtube.com/embed/ceYIRmmf7D8?playlist=ceYIRmmf7D8&loop=1;rel=0&autoplay=1&controls=0&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className="rounded-5"></iframe>
 
                 </div>
 
-                <div className="home-content_cta">
+                <div className="home-content--cta">
 
-                    <p className="home-content_cta-text">
+                    <p className="home-content--cta__text">
                         If you are a coach, consultant, brand owner or a content creator looking to <span className="highlight">grow your business without ad spend</span>, then this video is surprisingly <span className="brand-highlight">REMARKABLE</span> .
                     </p>
 
-                    <p className="home-content_cta-text">
+                    <p className="home-content--cta__text">
                         “Let us retire you from doing everything without seeing results.”
                     </p>
 
-                    <div className="home-content_cta-button">
+                    <div className="home-content--cta__button">
 
                         <Button />
 
@@ -81,9 +77,9 @@ const Home = () => {
 
             <div className="arrow-down">
 
-                <div className="arrow-down-container">
+                <div className="arrow-down--container">
 
-                    <div className="arrow-down-bullet" />
+                    <div className="arrow-down--bullet" />
 
 
 

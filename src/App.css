@@ -1,10 +1,11 @@
 .mainpage {
     background: var(--bg-color);
+    padding: 60px 120px 0;
 }
 
 section {
-    padding: 5rem 120px 2rem;
-    border: 1px solid red;
+    padding: 5rem 0;
+
 }
 
 /*web breakpoints (responsiveness)*/
@@ -15,37 +16,31 @@ section {
 
 @media screen and (max-width: 992px) {
 
-    section {
-        padding: 5rem 100px 2rem;
+
+    .mainpage {
+        padding: 60px 100px 0;
     }
+
 
 }
 
 @media screen and (max-width: 768px) {
-
-    section {
-        padding: 5rem 60px 2rem;
+    .mainpage {
+        padding: 60px 60px 0;
     }
-
 }
 
 @media screen and (max-width: 576px) {
-
-    section {
-        padding: 5rem 30px 2rem;
+    .mainpage {
+        padding: 50px 30px 0;
     }
-
 }
 
 @media screen and (max-width: 400px) {
-
-    section {
-        padding: 5rem 10px 0;
+    .mainpage {
+        padding: 30px 10px 0;
     }
-
 }
-
-/*other pages content design*/
 
 .ongoing {
     position: relative;
