@@ -58,7 +58,7 @@ const Home = () => {
                 <div className="home-content--cta">
 
                     <p className="home-content--cta__text">
-                        If you are a coach, consultant, brand owner or a content creator looking to <span className="highlight">grow your business without ad spend</span>, then this video is surprisingly <span className="brand-highlight">REMARKABLE</span> .
+                        If you are a coach, consultant, brand owner or a content creator looking to <span className="highlight">grow your business without ad spend</span>, then this video is surprisingly <span className="highlight">REMARKABLE</span> .
                     </p>
 
                     <p className="home-content--cta__text">

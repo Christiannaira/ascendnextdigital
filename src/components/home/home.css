@@ -10,7 +10,7 @@
 }
 
 .brand-highlight {
-    background: linear-gradient(90deg, #2AF598, #0093FD);
+    background: linear-gradient(90deg, var(--gradient01-color), var(--gradient02-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: var(--font-500);
@@ -39,7 +39,7 @@ p .highlight {
 .gradient {
     width: 200px;
     height: 200px;
-    background: linear-gradient(90deg, #2AF598, #0093FD);
+    background: linear-gradient(90deg, var(--gradient01-color), var(--gradient02-color));
     position: absolute;
     top: 10;
     left: 50%;
