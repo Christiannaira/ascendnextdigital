@@ -6,7 +6,9 @@ const TeamCard = ({ member, role, image }) => {
 
     return (
         <>
-            <div className="team-content_card">
+            <div className="team-content_card" data-aos="fade-up">
+
+
 
                 <div className="team-content_main">
 
@@ -37,10 +39,12 @@ const Team = () => {
 
         <section className="team" id="team">
 
+
+
             <Titles title="Why Us" subtitle="Meet Our Core Team" />
 
             <div className="team-about-us">
-                <p>We're a team of digital marketing wizards with over a decade of experience. We offer tailored solutions that are designed to help you increase sales, boost traffic, attract potential customers, and convert them into paying clients.</p>
+                <p>We're a team of digital marketing wizards with over a decade of experience. We offer tailored solutions that are designed to <span className="highlight">help you increase sales, boost traffic, attract potential customers, and convert them into paying clients</span>.</p>
             </div>
 
             <div className="team-content">

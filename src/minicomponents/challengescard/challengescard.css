@@ -20,9 +20,7 @@
     transition: .3s ease-in;
 }
 
-.challenge-container_card:hover {
-    padding-left: 4rem;
-}
+
 
 .challenge-container_card:hover::before {
     width: 100%;

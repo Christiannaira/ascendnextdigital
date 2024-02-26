@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Home, Calltoaction, Challenges, Footer, Navbar, Partners, Process, Team, Testimonials } from "../components";
+import { Home, Calltoaction, Challenges, Footer, Navbar, Partners, Process, Team, Testimonials, Lastcall } from "../components";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
@@ -34,10 +34,9 @@ const Mainpage = () => {
 
                 <Partners />
 
-
                 <Team />
 
-
+                <Lastcall />
 
             </main>
 

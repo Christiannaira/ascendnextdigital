@@ -7,5 +7,6 @@ import Partners from "./partners/Partners";
 import Process from "./process/Process";
 import Team from "./team/Team";
 import Testimonials from "./testimonials/Testimonials";
+import Lastcall from "./lastcall/Lastcall";
 
-export { Home, Calltoaction, Challenges, Footer, Navbar, Partners, Process, Team, Testimonials }
+export { Home, Calltoaction, Challenges, Footer, Navbar, Partners, Process, Team, Testimonials, Lastcall }

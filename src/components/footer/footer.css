@@ -1,0 +1,26 @@
+.footer-content {
+    text-align: center;
+}
+
+.footer-logo h2 {
+    color: var(--main-color);
+    font-weight: var(--font-400);
+}
+
+.footer-info {
+    margin-top: 1rem;
+}
+
+.footer-info p {
+    margin: 0;
+    color: #dddd;
+}
+
+.footer-copyrights {
+    margin-top: 5rem;
+}
+
+.footer-copyrights p {
+    color: #aaa;
+    font-weight: var(--font-300);
+}

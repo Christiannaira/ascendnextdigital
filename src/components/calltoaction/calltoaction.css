@@ -54,3 +54,8 @@
 .calltoaction-content_main-span {
     color: var(--highlight-color);
 }
+
+.calltoaction-content_main-img img {
+    width: 500px;
+    max-width: 100%;
+}
