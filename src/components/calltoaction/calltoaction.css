@@ -1,15 +1,18 @@
 .calltoaction-content {
-    width: 75%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
     position: relative;
     z-index: 1;
     padding: 6rem 0;
 }
 
-.calltoaction-content_main01 {
+.calltoaction-content--main01 {
+    width: 75%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.calltoaction-content--main01 {
     margin-top: 5rem;
 }
 
@@ -23,21 +26,21 @@
 
 .calltoaction-content p {
     font-size: 1.5rem;
-    color: #ddd;
+    color: var(--third-color);
     font-weight: var(--font-400);
 }
 
-.calltoaction-content_main02 {
+.calltoaction-content--main02 {
     margin: 3rem 0;
 }
 
-.calltoaction-content_main02 h3 {
+.calltoaction-content--main02 h3 {
     font-size: 2.5rem;
     color: var(--main-color);
     font-weight: var(--font-700);
 }
 
-.calltoaction-content_main-img-button {
+.calltoaction-content--main__img--button {
     margin-top: 2rem;
 }
 
@@ -46,16 +49,78 @@
     width: 100%;
     position: absolute;
     left: 0;
-    background-color: #101010;
+    background-color: var(--secondBg-color);
     z-index: 1;
 
 }
 
-.calltoaction-content_main-span {
+.calltoaction-content--main__span {
     color: var(--highlight-color);
 }
 
-.calltoaction-content_main-img img {
+.calltoaction-content--main__img img {
     width: 500px;
     max-width: 100%;
+}
+
+/*web breakpoints (responsiveness)*/
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+
+    .calltoaction-content--main01 {
+        width: 80%;
+    }
+
+    .cta-gradient {
+        height: 1500px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .calltoaction-content--main01 {
+        width: 85%;
+    }
+
+    .cta-gradient {
+        height: 1600px;
+
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .calltoaction-content--main01 {
+        width: 90%;
+    }
+
+    .cta-gradient {
+        height: 1700px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+    .calltoaction-content--main01 {
+        width: 95%;
+    }
+
+    .cta-gradient {
+        height: 1720px;
+
+    }
+
+
 }

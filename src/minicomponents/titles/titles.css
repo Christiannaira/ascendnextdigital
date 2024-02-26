@@ -20,7 +20,7 @@
 
 .section-title--sub__top {
     padding: 5px 2rem;
-    border: 1px solid #aaa;
+    border: 1px solid var(--third-color);
     border-radius: 5px;
 
 }

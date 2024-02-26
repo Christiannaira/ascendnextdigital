@@ -1,10 +1,10 @@
 .mainpage {
     background: var(--bg-color);
-    padding: 60px 120px 0;
+    padding: 60px 120px 20px;
 }
 
 section {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
 
 }
 
@@ -18,7 +18,7 @@ section {
 
 
     .mainpage {
-        padding: 60px 100px 0;
+        padding: 50px 100px 20px;
     }
 
 
@@ -26,19 +26,19 @@ section {
 
 @media screen and (max-width: 768px) {
     .mainpage {
-        padding: 60px 60px 0;
+        padding: 40px 60px 20px;
     }
 }
 
 @media screen and (max-width: 576px) {
     .mainpage {
-        padding: 50px 30px 0;
+        padding: 30px 30px 20px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .mainpage {
-        padding: 30px 10px 0;
+        padding: 20px 10px 20px;
     }
 }
 

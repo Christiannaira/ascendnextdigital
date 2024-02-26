@@ -1,6 +1,7 @@
 .home {
     padding: 120px 0 0;
     text-align: center;
+
 }
 
 .home-content--title {
@@ -160,6 +161,7 @@ p .highlight {
 }
 
 @media screen and (max-width: 400px) {
+
 
     .brand-highlight {
         font-size: 1rem;
