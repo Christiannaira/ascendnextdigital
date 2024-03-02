@@ -1,6 +1,7 @@
 .mainpage {
     background: var(--bg-color);
-    padding: 60px 120px 20px;
+    padding: 35px 0 0;
+
 }
 
 section {
@@ -17,29 +18,29 @@ section {
 @media screen and (max-width: 992px) {
 
 
-    .mainpage {
+    /* .mainpage {
         padding: 50px 100px 20px;
-    }
+    } */
 
 
 }
 
 @media screen and (max-width: 768px) {
-    .mainpage {
+    /* .mainpage {
         padding: 40px 60px 20px;
-    }
+    } */
 }
 
 @media screen and (max-width: 576px) {
-    .mainpage {
+    /* .mainpage {
         padding: 30px 30px 20px;
-    }
+    } */
 }
 
 @media screen and (max-width: 400px) {
-    .mainpage {
+    /* .mainpage {
         padding: 20px 10px 20px;
-    }
+    } */
 }
 
 .ongoing {

@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import "./navbar.css";
-import { NavLink } from "react-router-dom"
+import { NavLink, Link } from "react-router-dom";
+import WhiteLogo from '../../assets/white-logo-vectorized.png';
 
 
+// navigational links
 const NavLinks = () => {
 
     return (
@@ -16,6 +18,16 @@ const NavLinks = () => {
                 Case Studies
             </NavLink>
 
+        </div>
+    )
+
+}
+
+export const Logo = () => {
+
+    return (
+        <div className="logo">
+            <img src={WhiteLogo} alt="ascendnext white logo" loading="lazy" className="" />
         </div>
     )
 
@@ -61,11 +73,15 @@ const Navbar = () => {
     }, [])
 
     return (
-        <div className="top-navigation d-flex justify-content-between align-items-center">
+        <div className="top-navigation d-flex justify-content-between align-items-center ">
 
             <div className="top-navigation--logo-container d-inline-flex align-items-center justify-content-center">
 
-                <h2 className="top-navigation--logo-container__logo">ascendnextdigital</h2>
+                <Link to="/">
+
+                    <Logo />
+
+                </Link>
 
             </div>
 

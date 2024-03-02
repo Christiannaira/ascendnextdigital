@@ -8,6 +8,7 @@ const Home = () => {
 
         <section className="home p-relative z-100" id="home" data-aos="fade-up">
 
+            {/*home gradient*/}
             <div className="gradient" />
 
             <div className="home-content">
@@ -20,16 +21,14 @@ const Home = () => {
 
                     <h1 className="home-content--title__main">
 
-                        We Skyrocket Your Social Media Presence in the First 90 Days. Quality & Organic Views.
-
-                        <span className="home-content--title__main-highlight">
+                        We Skyrocket Your Social Media Presence in the First 90 Days. Quality & Organic Views. <span className="home-content--title__main-highlight">
                             No Results, No bills!!
                         </span>
                     </h1>
 
                     <p className="home-content--title__secondary">
 
-                        Place your personal brand into the
+                        Place your Personal Brand into the
 
                         <span className="highlight">
                             &nbsp;
@@ -75,13 +74,13 @@ const Home = () => {
 
             </div>
 
+            {/*home arrow icon transition*/}
+
             <div className="arrow-down">
 
                 <div className="arrow-down--container">
 
                     <div className="arrow-down--bullet" />
-
-
 
                 </div>
 

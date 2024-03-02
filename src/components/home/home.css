@@ -1,5 +1,5 @@
 .home {
-    padding: 120px 0 0;
+    padding: 0px 120px;
     text-align: center;
 
 }
@@ -8,6 +8,7 @@
     width: 75%;
     max-width: 100%;
     margin: auto;
+
 }
 
 .brand-highlight {
@@ -40,6 +41,7 @@ p .highlight {
 .gradient {
     width: 200px;
     height: 200px;
+    max-width: 100%;
     background: linear-gradient(90deg, var(--gradient01-color), var(--gradient02-color));
     position: absolute;
     top: 10;
@@ -91,14 +93,12 @@ p .highlight {
 @media screen and (max-width: 992px) {
 
     .home {
-        padding: 100px 0;
+        padding: 0px 100px;
+        text-align: center;
     }
 
     .home-content--title {
         width: 100%;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .brand-highlight {
@@ -109,6 +109,11 @@ p .highlight {
         font-size: 3.2rem;
     }
 
+    .gradient {
+        width: 190px;
+        height: 190px;
+    }
+
 
 
 }
@@ -116,14 +121,8 @@ p .highlight {
 @media screen and (max-width: 800px) {
 
     .home {
-        padding: 80px 0;
-    }
-
-    .home-content--title {
-        width: 100%;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 0 80px;
+        text-align: center;
     }
 
     .brand-highlight {
@@ -131,18 +130,20 @@ p .highlight {
     }
 
     h1.home-content--title__main {
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
 
-
-
+    .gradient {
+        width: 180px;
+        height: 180px;
+    }
 
 }
 
 @media screen and (max-width: 680px) {
 
     .home {
-        padding: 40px 0;
+        padding: 0 30px;
     }
 
     .brand-highlight {
@@ -157,25 +158,35 @@ p .highlight {
         margin-top: 2rem;
     }
 
+    .gradient {
+        width: 170px;
+        height: 170px;
+    }
 
 }
 
 @media screen and (max-width: 400px) {
 
+    .home {
+        padding: 0 20px;
+    }
 
     .brand-highlight {
         font-size: 1rem;
     }
 
     h1.home-content--title__main {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .home-content--button {
         margin-top: 1.5rem;
     }
 
-
+    .gradient {
+        width: 160px;
+        height: 160px;
+    }
 
 }
 

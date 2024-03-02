@@ -1,8 +1,12 @@
-.top-navigation--logo-container .top-navigation--logo-container__logo {
-    color: var(--main-color);
-    font-size: 1.1rem;
-    font-weight: var(--font-400);
+.top-navigation {
+    padding: 0 120px 20px;
 }
+
+.top-navigation--logo-container img {
+    display: block;
+    max-width: 120px;
+}
+
 
 /*menu bar design*/
 
@@ -50,11 +54,24 @@
 
 @media screen and (max-width: 1200px) {}
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+
+    .top-navigation {
+        padding: 0 100px 20px;
+    }
+
+}
 
 @media screen and (max-width: 768px) {
 
+    .top-navigation {
+        padding: 0 80px 20px;
+    }
 
+    .top-navigation--logo-container img {
+        display: block;
+        max-width: 100px;
+    }
 
     .top-navigation--menubar {
         display: inline-block;
@@ -73,6 +90,18 @@
 
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
 
-@media screen and (max-width: 400px) {}
+    .top-navigation {
+        padding: 0 30px 20px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .top-navigation {
+        padding: 0 20px 20px;
+    }
+
+}

@@ -3,7 +3,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 
 import { Link } from "react-router-dom";
-
+import { Logo } from "../navbar/Navbar";
 
 
 
@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="footer-content">
 
                 <div className="footer-logo">
-                    <h2>Ascendnext Digital</h2>
+                    <Logo />
                 </div>
 
                 <div className="footer-info">
