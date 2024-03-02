@@ -1,5 +1,8 @@
 import "./footer.css";
-// import { FaFacebookSquare, RiInstagramFill } from "react-icons";
+import { FaFacebookSquare } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+
+import { Link } from "react-router-dom";
 
 
 
@@ -22,9 +25,8 @@ const Footer = () => {
 
                 <div className="footer-socials">
 
-                    {/* <FaFacebookSquare />
-                    <RiInstagramFill /> */}
-
+                    <a href=""><FaFacebookSquare /></a>
+                    <a href=""><RiInstagramFill /></a>
 
                 </div>
 
@@ -33,6 +35,10 @@ const Footer = () => {
                 </div>
 
             </div>
+
+
+
+
 
         </section>
 

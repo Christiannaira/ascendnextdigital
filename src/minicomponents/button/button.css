@@ -39,3 +39,29 @@
 .button-container button:hover::before {
     background: var(--main-color);
 }
+
+/*web breakpoints (responsiveness)*/
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 400px) {
+
+    .button-container button {
+
+        padding: 14px 20px;
+
+    }
+
+    .button-container button:hover {
+        letter-spacing: 1px;
+        transform: scale(1.0);
+    }
+}

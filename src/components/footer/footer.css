@@ -24,3 +24,15 @@
     color: #aaa;
     font-weight: var(--font-300);
 }
+
+.footer-socials {
+    margin-top: 1rem;
+}
+
+.footer-socials a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 5px;
+    cursor: pointer;
+}
