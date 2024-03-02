@@ -71,11 +71,9 @@ p .highlight {
 
 
 .home-content--cta {
-    margin-top: 2rem;
     width: 75%;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2rem auto 0;
 }
 
 .home-content--cta__text {
@@ -114,6 +112,10 @@ p .highlight {
         height: 190px;
     }
 
+    .home-content--cta {
+        width: 80%;
+    }
+
 
 
 }
@@ -136,6 +138,10 @@ p .highlight {
     .gradient {
         width: 180px;
         height: 180px;
+    }
+
+    .home-content--cta {
+        width: 85%;
     }
 
 }
@@ -163,6 +169,11 @@ p .highlight {
         height: 170px;
     }
 
+    .home-content--cta {
+        width: 95%;
+    }
+
+
 }
 
 @media screen and (max-width: 400px) {
@@ -186,6 +197,10 @@ p .highlight {
     .gradient {
         width: 160px;
         height: 160px;
+    }
+
+    .home-content--cta {
+        width: 100%;
     }
 
 }

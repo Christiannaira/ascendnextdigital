@@ -50,7 +50,7 @@ const Home = () => {
 
                 <div className="home-content--vsl">
 
-                    <iframe width="1150" height="705" src="https://www.youtube.com/embed/ceYIRmmf7D8?playlist=ceYIRmmf7D8&loop=1;rel=0&autoplay=1&controls=0&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className="rounded-5"></iframe>
+                    <iframe width="1150" height="705" src="https://www.youtube.com/embed/ceYIRmmf7D8?playlist=ceYIRmmf7D8&loop=1;rel=0&autoplay=1&controls=0&showinfo=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-5"></iframe>
 
                 </div>
 

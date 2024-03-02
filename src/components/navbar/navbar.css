@@ -1,5 +1,6 @@
 .top-navigation {
     padding: 0 120px 20px;
+
 }
 
 .top-navigation--logo-container img {
@@ -16,10 +17,8 @@
 }
 
 .top-navigation--menubar .menu {
-    width: 30px;
-    height: 1px;
-    background: #fff;
-    margin: 7px 0;
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 

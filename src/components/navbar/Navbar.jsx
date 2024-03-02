@@ -2,6 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import "./navbar.css";
 import { NavLink, Link } from "react-router-dom";
 import WhiteLogo from '../../assets/white-logo-vectorized.png';
+import { SlMenu } from "react-icons/sl";
+import { IoCloseSharp } from "react-icons/io5";
+
 
 
 // navigational links
@@ -93,9 +96,10 @@ const Navbar = () => {
 
             <div className="top-navigation--menubar" ref={menuRef} onClick={() => setMenu(!menu)}>
 
-                <div className="menu menu01"></div>
-                <div className="menu menu02"></div>
-                <div className="menu menu03"></div>
+                {
+                    menu ? <SlMenu className="menu" /> : 'hello'
+                }
+
 
                 {menu ? (
                     <div className="top-navigation--menubar__open scale-in-center">

@@ -65,3 +65,14 @@
         transform: scale(1.0);
     }
 }
+
+@media screen and (max-width: 335px) {
+
+    .button-container button {
+
+        padding: 14px 15px;
+
+    }
+
+
+}

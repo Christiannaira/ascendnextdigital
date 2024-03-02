@@ -6,7 +6,6 @@
 
 section {
     padding: 5rem 0 0;
-
 }
 
 /*web breakpoints (responsiveness)*/
@@ -17,30 +16,33 @@ section {
 
 @media screen and (max-width: 992px) {
 
-
-    /* .mainpage {
-        padding: 50px 100px 20px;
-    } */
-
+    .mainpage {
+        padding: 25px 0 0;
+    }
 
 }
 
 @media screen and (max-width: 768px) {
-    /* .mainpage {
-        padding: 40px 60px 20px;
-    } */
+
+    .mainpage {
+        padding: 20px 0 0;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
-    /* .mainpage {
-        padding: 30px 30px 20px;
-    } */
+
+    .mainpage {
+        padding: 15px 0 0;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
-    /* .mainpage {
-        padding: 20px 10px 20px;
-    } */
+
+    .mainpage {
+        padding: 10px 0 0;
+    }
 }
 
 .ongoing {
