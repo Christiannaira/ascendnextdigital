@@ -40,7 +40,6 @@ const Team = () => {
         <section className="team" id="team">
 
 
-
             <Titles title="Why Us" subtitle="Meet Our Core Team" />
 
             <div className="team-about-us">

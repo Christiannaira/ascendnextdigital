@@ -2,9 +2,10 @@
     text-align: center;
 }
 
-.footer-logo h2 {
-    color: var(--main-color);
-    font-weight: var(--font-400);
+.footer-logo .logo img {
+    display: block;
+    max-width: 120px;
+    margin: 0 auto;
 }
 
 .footer-info {

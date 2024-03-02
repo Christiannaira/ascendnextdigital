@@ -1,4 +1,4 @@
-.process-containter {
+.process-container {
     background-color: #101010;
     padding: 3rem 4rem;
     margin: 1rem auto 1rem auto;
@@ -11,7 +11,7 @@
     border-radius: 12px;
     cursor: pointer;
     border: 1px solid transparent;
-    transition: .3s ease-in-out;
+    transition: .3s ease-in-out !important;
 }
 
 .process-container_title h3 {
@@ -25,6 +25,6 @@
     font-size: 1.2rem;
 }
 
-.process-containter:hover {
+.process-container:hover {
     border-color: #aaa;
 }

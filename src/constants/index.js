@@ -45,14 +45,14 @@ const process = [
 const testimonials = [
     {
         client: 'Baron Hashel',
-        profession: 'Founder & CEO',
-        words: ' We deliver fast but we also believe that quality is much more important than quantity, we assure that every penny and every dollar our clients pay us would return to them tenfold. We deliver fast but we also believe that quality is much more important than quantity, we assure that every penny and every dollar our clients pay us would return to them tenfold.',
+        profession: 'Content Creator | Life Coach',
+        words: "Team in ascendnext is an A+, for what they have done to my personal branding. I'll definitely recommend them and continuously working with them",
         image: Avatar,
     },
     {
-        client: 'Baron Hashel',
-        profession: 'Founder & CEO',
-        words: "We deliver fast but we also believe that quality is much more important than quantity, we assure that every penny and every dollar our clients pay us would return to them tenfold. We deliver fast but we also believe that.",
+        client: 'Hannelyn Siya',
+        profession: 'Content Creator',
+        words: "I don't know what to do and where do I begin until Ascendnext comes in. They helped me along the way, taught me on how to do this. They are so friendly and professional in terms of quality of work and relationship. Can't wait to see our next big results!",
         image: Avatar,
     }
 ]

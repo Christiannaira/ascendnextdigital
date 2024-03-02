@@ -8,7 +8,7 @@ const Calltoaction = () => {
 
         <section className="calltoaction" id="calltoaction">
 
-            <div className="cta-gradient" />
+
 
             <div className="calltoaction-content">
 
@@ -22,11 +22,11 @@ const Calltoaction = () => {
 
                     <div className="calltoaction-content--main02">
 
-                        <h3>Book Your <span className="calltoaction-content--main__span">Free Discovery Call Now!</span> So, We Can Start Kicking Off Your Social Media Presence <span style={{ color: "red" }}>PLUS</span> You Will Get A Free E-BOOK to 10x Your Leads & Sales!!</h3>
+                        <h3>Book Your <span className="calltoaction-content--main__span">Free Discovery Call Now!</span> So, We Can Start Kicking Off Your Social Media Presence</h3>
 
                         <div className="calltoaction-content--main__img">
 
-                            <img src={Book} alt="book" title="start-with-why" />
+                            {/* <img src={Book} alt="book" title="start-with-why" /> */}
 
                             <div className="calltoaction-content--main__img--button">
 

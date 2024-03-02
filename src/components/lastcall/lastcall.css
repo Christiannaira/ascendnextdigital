@@ -1,3 +1,7 @@
+.lastcall {
+    padding: 5rem 120px;
+}
+
 .lastcall-content {
     text-align: center;
     max-width: 1200px;
@@ -13,4 +17,42 @@
     font-size: 1.5rem;
     color: var(--main-color);
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+
+    .lastcall {
+        padding: 4rem 100px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .lastcall {
+        padding: 3rem 80px;
+    }
+
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .lastcall {
+        padding: 2rem 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .lastcall {
+        padding: 2rem 20px;
+    }
+
+
 }

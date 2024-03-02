@@ -17,7 +17,7 @@ section {
 @media screen and (max-width: 992px) {
 
     .mainpage {
-        padding: 25px 0 0;
+        padding: 25px 0;
     }
 
 }
@@ -25,7 +25,7 @@ section {
 @media screen and (max-width: 768px) {
 
     .mainpage {
-        padding: 20px 0 0;
+        padding: 20px 0;
     }
 
 }
@@ -33,7 +33,7 @@ section {
 @media screen and (max-width: 576px) {
 
     .mainpage {
-        padding: 15px 0 0;
+        padding: 15px 0;
     }
 
 }
@@ -41,7 +41,7 @@ section {
 @media screen and (max-width: 400px) {
 
     .mainpage {
-        padding: 10px 0 0;
+        padding: 10px 0;
     }
 }
 

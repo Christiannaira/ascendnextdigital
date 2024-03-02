@@ -1,3 +1,7 @@
+.team {
+    padding: 5rem 120px;
+}
+
 .team-content_image img {
     display: block;
     width: 200px;
@@ -21,7 +25,7 @@
 }
 
 .team-content_card:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
 }
 
 .team-content_card:hover .team-content_image img {
@@ -55,4 +59,42 @@
     color: #ddd;
     font-size: 1rem;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .team {
+        padding: 4rem 100px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .team {
+        padding: 3rem 80px;
+    }
+
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .team {
+        padding: 2rem 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .team {
+        padding: 2rem 20px;
+    }
+
+
 }

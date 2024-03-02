@@ -1,0 +1,38 @@
+.process {
+    padding: 5rem 120px;
+}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+
+    .process {
+        padding: 5rem 100px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .process {
+        padding: 4rem 80px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .process {
+        padding: 3rem 30px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .process {
+        padding: 3rem 20px;
+    }
+}

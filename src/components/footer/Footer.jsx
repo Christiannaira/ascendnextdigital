@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="footer-content">
 
                 <div className="footer-logo">
-                    <Logo />
+                    <a href="#home"><Logo /></a>
                 </div>
 
                 <div className="footer-info">
@@ -25,8 +25,8 @@ const Footer = () => {
 
                 <div className="footer-socials">
 
-                    <a href=""><FaFacebookSquare /></a>
-                    <a href=""><RiInstagramFill /></a>
+                    <a href="" target="_blank"><FaFacebookSquare /></a>
+                    <a href="" target="_blank"><RiInstagramFill /></a>
 
                 </div>
 

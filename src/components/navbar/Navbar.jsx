@@ -80,11 +80,7 @@ const Navbar = () => {
 
             <div className="top-navigation--logo-container d-inline-flex align-items-center justify-content-center">
 
-                <Link to="/">
-
-                    <Logo />
-
-                </Link>
+                <a href="#home"><Logo /></a>
 
             </div>
 

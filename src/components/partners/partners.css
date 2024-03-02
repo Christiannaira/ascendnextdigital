@@ -1,3 +1,7 @@
+.partners {
+    padding: 5rem 120px;
+}
+
 .partners-content {
     display: flex;
     align-items: center;
@@ -17,4 +21,106 @@
 .partners-title h2 {
     color: #ddd;
     text-align: center;
+}
+
+.testimonials {
+    padding: 0px 120px;
+}
+
+.testimonials-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 5rem;
+    justify-content: center;
+
+}
+
+.testimonials-content-container {
+    border-top: 1px solid #aaa;
+    margin: 1rem 0;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 2rem 1rem;
+}
+
+.testimonials-content-container-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.profile-img img {
+    display: block;
+    max-width: 70px;
+
+}
+
+.testimonials-content-container-words p {
+    color: #ddd;
+    font-weight: var(--font-200);
+    font-size: 1.1rem;
+}
+
+
+.profile-texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+
+.profile-texts h3 {
+    color: var(--main-color);
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: var(--font-500);
+}
+
+.profile-texts h4 {
+    color: #ddd;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: var(--font-300);
+}
+
+@media screen and (max-width: 992px) {
+
+    .partners {
+        padding: 4rem 100px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .partners {
+        padding: 3rem 80px;
+    }
+
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .partners {
+        padding: 2rem 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .partners {
+        padding: 2rem 20px;
+    }
+
+
 }
