@@ -24,7 +24,7 @@ const PartnersCard = ({ item }) => {
 
     return (
         <div className="partners-content_main">
-            <img src={item.image} alt="" />
+            <img src={item.image} alt="" loading="lazy" />
         </div>
     )
 

@@ -13,7 +13,7 @@ const TeamCard = ({ member, role, image }) => {
                 <div className="team-content_main">
 
                     <div className="team-content_image">
-                        <img src={image} alt="image" />
+                        <img src={image} alt="image" loading="lazy" />
                     </div>
 
                     <div className="team-content_member">

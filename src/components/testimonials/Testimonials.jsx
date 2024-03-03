@@ -13,7 +13,7 @@ const ReviewCard = ({ item }) => {
             <div className="testimonials-content-container-profile">
 
                 <div className="profile-img">
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt="" loading="lazy" />
                 </div>
 
                 <div className="profile-texts">
